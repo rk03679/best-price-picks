@@ -171,3 +171,11 @@ footer a{
     text-decoration:none;
     margin:0 10px;
 }
+.product-image{
+    width:100%;
+    max-width:260px;
+    display:block;
+    margin:0 auto 20px;
+    border-radius:12px;
+    object-fit:contain;
+}
