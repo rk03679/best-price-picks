@@ -198,10 +198,16 @@ footer a{
 }
 
 .rating{
-color:#ff9900;
-font-size:18px;
-margin:12px 0;
-font-weight:700;
+    color:#ffb400;
+    font-size:20px;
+    font-weight:bold;
+    margin:12px 0;
+}
+
+.rating span{
+    color:#666;
+    font-size:15px;
+    font-weight:500;
 }
 
 .rating span{
