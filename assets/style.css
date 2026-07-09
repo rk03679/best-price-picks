@@ -143,17 +143,21 @@ nav a:hover{
 
 .btn{
     display:inline-block;
-    background:#ff9900;
-    color:white;
-    padding:12px 20px;
+    width:100%;
+    max-width:260px;
+    padding:16px;
+    background:#ff9800;
+    color:#fff;
     text-decoration:none;
-    border-radius:6px;
+    border-radius:12px;
+    font-size:22px;
     font-weight:bold;
-    margin-top:15px;
+    transition:.3s;
 }
 
 .btn:hover{
-    background:#e67e00;
+    background:#f57c00;
+    transform:translateY(-3px);
 }
 
 /* Footer */
@@ -173,11 +177,15 @@ footer a{
 }
 .product-image{
     width:100%;
-    max-width:260px;
+    max-width:230px;
     display:block;
-    margin:0 auto 20px;
-    border-radius:12px;
+    margin:20px auto;
     object-fit:contain;
+    transition:.3s;
+}
+
+.product-image:hover{
+    transform:scale(1.05);
 }
 .category-card{
     position:relative;
