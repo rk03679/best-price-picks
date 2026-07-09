@@ -179,3 +179,55 @@ footer a{
     border-radius:12px;
     object-fit:contain;
 }
+.badge{
+display:inline-block;
+background:#ff3b30;
+color:#fff;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+font-weight:700;
+margin-bottom:15px;
+}
+
+.rating{
+color:#ff9900;
+font-size:18px;
+margin:12px 0;
+font-weight:700;
+}
+
+.rating span{
+color:#555;
+font-size:15px;
+margin-left:8px;
+}
+
+.price{
+margin:12px 0;
+}
+
+.old-price{
+text-decoration:line-through;
+color:#888;
+margin-right:10px;
+font-size:18px;
+}
+
+.coupon{
+background:#e8f5e9;
+color:#2e7d32;
+padding:10px;
+border-radius:8px;
+font-weight:600;
+margin:12px 0;
+}
+
+.bank-offer{
+background:#e3f2fd;
+color:#1565c0;
+padding:10px;
+border-radius:8px;
+font-weight:600;
+margin-bottom:20px;
+}
