@@ -179,15 +179,22 @@ footer a{
     border-radius:12px;
     object-fit:contain;
 }
+.category-card{
+    position:relative;
+}
+
 .badge{
-display:inline-block;
-background:#ff3b30;
-color:#fff;
-padding:6px 12px;
-border-radius:20px;
-font-size:12px;
-font-weight:700;
-margin-bottom:15px;
+    position:absolute;
+    top:18px;
+    left:18px;
+    background:#e53935;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:700;
+    z-index:10;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
 }
 
 .rating{
