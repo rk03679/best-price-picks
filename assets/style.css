@@ -330,3 +330,32 @@ section h2{
 }
 
 }
+/* Featured Articles */
+
+.article-card{
+    background:#fff;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.article-card h3{
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.article-card p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* Today's Deals */
+
+.product-card{
+    background:#fff;
+    border-radius:16px;
+    padding:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    text-align:center;
+}
