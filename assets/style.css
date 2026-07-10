@@ -33,14 +33,16 @@ header{
 }
 
 .logo{
-    font-size:32px;
-    font-weight:bold;
+    font-size:56px;
+    font-weight:800;
+    color:#fff;
+    margin-bottom:10px;
 }
 
 .tagline{
     color:#ddd;
-    font-size:14px;
-    margin-top:5px;
+    font-size:18px;
+    margin-top:8px;
 }
 
 /* Navigation */
