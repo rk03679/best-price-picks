@@ -120,17 +120,17 @@ nav a:hover{
 
 .category-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-    gap:20px;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
     margin:40px 0;
 }
 
 .category-card{
-    background:white;
-    padding:20px;
+    background:#fff;
+    padding:25px;
     text-align:center;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
     transition:.3s;
 }
 
@@ -314,4 +314,19 @@ margin:12px 0;
 section h2{
     font-size:42px;
     margin-bottom:20px;
+}
+@media (max-width:768px){
+
+.category-grid{
+    grid-template-columns:1fr;
+}
+
+.category-card{
+    padding:20px;
+}
+
+.category-card h3{
+    font-size:22px;
+}
+
 }
