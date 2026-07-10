@@ -360,10 +360,24 @@ section h2{
 
 /* Today's Deals */
 
-.product-card{
+.product-card {
+    position: relative;
     background:#fff;
     border-radius:16px;
     padding:20px;
     box-shadow:0 6px 18px rgba(0,0,0,.08);
     text-align:center;
+}
+.best-seller {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #ef4444;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
 }
