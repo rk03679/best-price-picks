@@ -326,6 +326,17 @@ section h2{
 }
 
 }
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+    margin:40px 0;
+}
+.article-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+    margin:40px 0;
 }
 /* Featured Articles */
 
