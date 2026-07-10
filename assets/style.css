@@ -259,3 +259,20 @@ margin:12px 0;
     font-size: 18px;
     font-weight: 600;
 }
+.site-logo img{
+    height:70px;
+    width:auto;
+    display:block;
+}
+.hero-banner{
+    margin:20px 0;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.hero-banner img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+}
