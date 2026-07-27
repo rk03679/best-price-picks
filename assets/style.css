@@ -371,13 +371,19 @@ section h2{
 
 /* Today's Deals */
 
-.product-card {
-    position: relative;
+.product-card{
+    position:relative;
     background:#fff;
-    border-radius:16px;
-    padding:20px;
-    box-shadow:0 6px 18px rgba(0,0,0,.08);
-    text-align:center;
+    border-radius:18px;
+    padding:25px;
+    width:100%;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-6px);
 }
 .best-seller {
     position: absolute;
