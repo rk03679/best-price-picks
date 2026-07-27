@@ -339,9 +339,9 @@ section h2{
 }
 .product-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:25px;
-    margin:40px 0;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    width:100%;
 }
 .article-grid{
     display:grid;
