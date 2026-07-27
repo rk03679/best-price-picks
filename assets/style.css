@@ -432,3 +432,10 @@ section h2{
     color:#666;
     margin-bottom:20px;
 }
+img{
+    max-width:100%;
+}
+
+html,body{
+    overflow-x:hidden;
+}
