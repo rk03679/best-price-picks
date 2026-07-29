@@ -29,22 +29,33 @@ body{
 
 header{
     background:#131921;
-    color:white;
-    padding:18px 0;
+    color:#fff;
+    padding:20px 0;
+}
+
+header .container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
 }
 
 .logo{
-    font-size:30px;
-    font-weight:700;
-    color:#fff;
+    display:block;
+    color:#ffffff;
+    font-size:38px;
+    font-weight:800;
     line-height:1.2;
     margin-bottom:8px;
 }
 
 .tagline{
-    color:#ddd;
+    display:block;
+    color:#ffd54f;
     font-size:18px;
-    margin-top:8px;
+    font-weight:600;
+    margin-top:0;
 }
 
 /* Navigation */
