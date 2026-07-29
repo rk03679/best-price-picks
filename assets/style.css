@@ -31,19 +31,28 @@ header{
     padding:20px 0;
 }
 
+header .container{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+}
+
 .logo{
     color:#ffffff;
     font-size:38px;
     font-weight:800;
-    text-align:center;
+    text-align:left;
+    width:100%;
 }
 
 .tagline{
     color:#ffcc33;
     font-size:18px;
     font-weight:600;
-    text-align:center;
-    margin-top:8px;
+    text-align:left;
+    width:100%;
+    margin-top:6px;
 }
 
 /* Navigation */
